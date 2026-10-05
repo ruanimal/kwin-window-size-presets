@@ -1,0 +1,21 @@
+{
+    "KPackageStructure": "KWin/Script",
+    "X-Plasma-API": "javascript",
+    "X-Plasma-MainScript": "code/main.js",
+    "KPlugin": {
+        "Id": "window-size-presets",
+        "Name": "Window Size Presets",
+        "Name[zh_CN]": "窗口尺寸预设",
+        "Description": "Adds a \"Window Size\" submenu with preset sizes to the window menu (Alt+F3 or right-click on the titlebar), e.g. set a window to 800x600",
+        "Description[zh_CN]": "在窗口菜单（Alt+F3 或标题栏右键）中增加“窗口尺寸”子菜单，可一键把窗口设为 800×600 等预设尺寸",
+        "Version": "1.0",
+        "License": "MIT",
+        "Icon": "preferences-system-windows-script-test",
+        "EnabledByDefault": true,
+        "Authors": [
+            {
+                "Name": "rlj"
+            }
+        ]
+    }
+}
